@@ -36,12 +36,3 @@
 ### 提出方法
 
 push するだけ！
-
-### GitHub Secrets の設定
-
-リポジトリの Settings → Secrets and variables → Actions に以下を追加:
-
-| Secret 名 | 値 |
-|---|---|
-| `GIT_EVAL_URL` | 管理者から通知された Webhook URL |
-| `GIT_EVAL_SECRET` | 管理者から通知された Secret キー |
